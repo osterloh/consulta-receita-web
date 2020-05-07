@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Consulta Sintegra" src="./src/assets/banner.jpg" />
+    <img alt="Consulta Sintegra" src="./src/assets/banner.jpg" width="300" />
     <br>
     Consulta Receita - CNPJ
 </h1>
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img alt="Demo Consulta Sintegra" src="./src/assets/demo.gif">
+  <img alt="Demo Consulta Sintegra" src="./src/assets/demo.gif" width="500">
 </p>
 
 ## Descrição
@@ -40,10 +40,10 @@ Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.c
 
 ```bash
 # Para clonar este repositório
-$ git clone https://github.com/osterloh/GoStack_Level03_ChallengeReactJS.git
+$ git clone https://github.com/osterloh/consulta-receita-web
 
 # Entrar no repositório
-$ cd GoStack_Level03_ChallengeReactJS
+$ cd consulta-receita-web
 
 # Instalar as dependências
 $ yarn
