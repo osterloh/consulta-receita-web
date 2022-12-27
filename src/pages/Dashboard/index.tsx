@@ -1,5 +1,4 @@
 import React, { useState, FormEvent } from 'react';
-import { FiSearch } from 'react-icons/fi';
 
 import api from '../../service/api';
 
@@ -34,7 +33,12 @@ const Dashboard: React.FC = () => {
     }
 
     try {
-      const response = await api.get(`${newSearch}`).then(response => {
+      await api.get(`${newSearch}`, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: 'Bearer a90395467accbfd9de6d9cbde3af758d94d70a4c8ec13c2aa9297eed2f498fa5'
+        }
+      }).then(response => {
         setSearchEmpresas(response.data);
       });
 
